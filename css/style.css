@@ -2,21 +2,25 @@
     box-sizing: border-box;
 }
 .box {
-    height: 500px;
+    /*height: 500px;*/
+    display: flex;
+    flex-wrap: wrap;
+
 }
-.boxpart {
-    width: 50%;
+/*.boxpart {
+    /*width: 50%;*/
 }
 .foto {
     float: left;
-}
+}*/
 .ingredienten{
-    float: right;
+    /*float: right;*/
+    padding: 50px;
 }
 .label-titel {
     font-weight: bold;
 }
 .timing {
     display: inline-block;
-    font-weight: 100;
+    font-weight: 200;
 }
